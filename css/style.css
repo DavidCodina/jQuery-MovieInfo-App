@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: "Open Sans";
+}
+
+
+#movies img,
+#movie img {
+  width:100%;
+}
+
+#movies .card {
+  min-height: 700px !important;
+}
+
+/* This isn't a great solution as it will stretch the image if it's less than 500px.
+However, it works for now. */
+#movies .card img {
+  min-height: 500px !important;
+}
